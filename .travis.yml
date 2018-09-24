@@ -3,7 +3,7 @@ language: python
     - "3.6"
 script:
   - py.teste teste.py
-  after_script:
-  notifications:
-    recipients:
+after_script:
+notifications:
+ recipients:
      -  ivanscf18@gmail.com
