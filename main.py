@@ -14,6 +14,6 @@ def inversao():
 		listaf.append(lista[x])
     
 		y=y+1
-
+	return(listaf)
 
 	print(listaf)
