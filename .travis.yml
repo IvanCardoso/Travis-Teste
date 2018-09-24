@@ -1,8 +1,9 @@
 language: python
   python:
     - "3.6"
-install:
-  - pip install -r requirements.txt
-# command to run tests
 script:
-  - pytest
+  - teste.py
+  after_script:
+  notifications:
+    recipients:
+     -  ivanscf18@gmail.com
